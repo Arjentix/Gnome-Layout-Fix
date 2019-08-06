@@ -20,3 +20,8 @@ Launch it like this from the repository directory:
 
 I'm recommending to move it in the autostart (don't forget to type full path to the program).
 
+## Attention
+
+Be careful with logging out! Before doing it you should check, that the language is the same, as your password language, **otherwise you will not be able to log in**.
+
+The only way to fix this is to load computer in different os (e.g. live session) and change the order of layouts in the /etc/default/keyboard file of your system.
