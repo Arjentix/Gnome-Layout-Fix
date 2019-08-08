@@ -22,6 +22,5 @@ I'm recommending to move it in the autostart (don't forget to type full path to 
 
 ## Attention
 
-Be careful with logging out! Before doing it you should check, that the language is the same, as your password language, **otherwise you will not be able to log in**.
+Then after running this program I tried to logging out and logging in again I met a new problem – I couldn't logging in cause the layout was different than my password language.  So if you faces with this problem – run another *OS* on your machine (e.g. *live* session) and modify order of layouts in the */etc/default/keyboard* file. After doing that the problem was gone.
 
-The only way to fix this is to load computer in different os (e.g. live session) and change the order of layouts in the /etc/default/keyboard file of your system.
